@@ -1,0 +1,1244 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "screen",
+        "CanvasBufferSize": 21360,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 1424,
+            "Height": 296
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 1098,
+            "Y": 73,
+            "Width": 64,
+            "Height": 128,
+            "Pressed": "button_01_01.png",
+            "Released": "button_01_00.png",
+            "Clickable": true
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "Width": 100,
+            "Height": 25,
+            "TextColor": {
+              "Red": 245,
+              "Green": 245,
+              "Blue": 245
+            },
+            "TextId": "__SingleUse_00TP",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "Y": 25,
+            "Width": 118,
+            "Height": 25,
+            "TextId": "__SingleUse_GKEZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_68A9",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box3",
+            "Width": 1424,
+            "Height": 287,
+            "Color": {
+              "Red": 61,
+              "Green": 75,
+              "Blue": 112
+            }
+          },
+          {
+            "Type": "SwipeContainer",
+            "Name": "swipeContainer1",
+            "X": 33,
+            "Y": 12,
+            "Width": 610,
+            "Height": 250,
+            "SwipeCutoff": 50,
+            "IndicatorImageNormal": "__designer\\Blue_PageIndicator_dot_indicator_small_normal.png",
+            "IndicatorImageHighlight": "__designer\\Blue_PageIndicator_dot_indicator_small_highlight.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "swipeContainer1Page3",
+            "Style": "Style1",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page1",
+                "Width": 610,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_1",
+                    "X": 530,
+                    "Y": 85,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 80.0,
+                        "Y": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1",
+                    "Y": 88,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      },
+                      {
+                        "Y": 40.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "image1",
+                    "X": 80,
+                    "Y": 40,
+                    "Width": 170,
+                    "Height": 170,
+                    "RelativeFilename": "colors.png"
+                  },
+                  {
+                    "Type": "Circle",
+                    "Name": "circle1",
+                    "X": 369,
+                    "Y": 155,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "CenterX": 40,
+                    "CenterY": 40,
+                    "Radius": 40,
+                    "EndAngle": 360,
+                    "CapPrecision": "Butt"
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "box2",
+                    "X": 388,
+                    "Y": 175,
+                    "Width": 15,
+                    "Height": 40,
+                    "Color": {
+                      "Red": 61,
+                      "Green": 75,
+                      "Blue": 112
+                    }
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "box2_1",
+                    "X": 415,
+                    "Y": 175,
+                    "Width": 15,
+                    "Height": 40,
+                    "Color": {
+                      "Red": 61,
+                      "Green": 75,
+                      "Blue": 112
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea2",
+                    "X": 279,
+                    "Y": 25,
+                    "Width": 272,
+                    "Height": 147,
+                    "TextId": "__SingleUse_W33J",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page2",
+                "Width": 610,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_1_1",
+                    "X": 530,
+                    "Y": 85,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 80.0,
+                        "Y": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_2",
+                    "Y": 88,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      },
+                      {
+                        "Y": 40.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "image1_1",
+                    "X": 80,
+                    "Y": 40,
+                    "Width": 170,
+                    "Height": 170,
+                    "RelativeFilename": "sunset.png"
+                  },
+                  {
+                    "Type": "Circle",
+                    "Name": "circle1_1",
+                    "X": 369,
+                    "Y": 155,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "CenterX": 40,
+                    "CenterY": 40,
+                    "Radius": 40,
+                    "EndAngle": 360,
+                    "CapPrecision": "Butt"
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "box2_2",
+                    "X": 388,
+                    "Y": 175,
+                    "Width": 15,
+                    "Height": 40,
+                    "Color": {
+                      "Red": 61,
+                      "Green": 75,
+                      "Blue": 112
+                    }
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "box2_1_1",
+                    "X": 415,
+                    "Y": 175,
+                    "Width": 15,
+                    "Height": 40,
+                    "Color": {
+                      "Red": 61,
+                      "Green": 75,
+                      "Blue": 112
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea2_1",
+                    "X": 330,
+                    "Y": 28,
+                    "Width": 172,
+                    "Height": 147,
+                    "TextId": "__SingleUse_6A9P",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer1Page3",
+                "Width": 610,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_1_1_1",
+                    "X": 530,
+                    "Y": 85,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 80.0,
+                        "Y": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_2_1",
+                    "Y": 88,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      },
+                      {
+                        "Y": 40.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Image",
+                    "Name": "image1_1_1",
+                    "X": 80,
+                    "Y": 40,
+                    "Width": 170,
+                    "Height": 170,
+                    "RelativeFilename": "guitar.png"
+                  },
+                  {
+                    "Type": "Circle",
+                    "Name": "circle1_1_1",
+                    "X": 369,
+                    "Y": 155,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "CenterX": 40,
+                    "CenterY": 40,
+                    "Radius": 40,
+                    "EndAngle": 360,
+                    "CapPrecision": "Butt"
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "box2_2_1",
+                    "X": 388,
+                    "Y": 175,
+                    "Width": 15,
+                    "Height": 40,
+                    "Color": {
+                      "Red": 61,
+                      "Green": 75,
+                      "Blue": 112
+                    }
+                  },
+                  {
+                    "Type": "Box",
+                    "Name": "box2_1_1_1",
+                    "X": 415,
+                    "Y": 175,
+                    "Width": 15,
+                    "Height": 40,
+                    "Color": {
+                      "Red": 61,
+                      "Green": 75,
+                      "Blue": 112
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea2_1_1",
+                    "X": 316,
+                    "Y": 25,
+                    "Width": 186,
+                    "Height": 98,
+                    "TextId": "__SingleUse_H7YG",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "SwipeContainer",
+            "Name": "swipeContainer2",
+            "X": 666,
+            "Y": 15,
+            "Width": 721,
+            "Height": 250,
+            "SwipeCutoff": 50,
+            "IndicatorImageNormal": "__designer\\Blue_PageIndicator_dot_indicator_small_normal.png",
+            "IndicatorImageHighlight": "__designer\\Blue_PageIndicator_dot_indicator_small_highlight.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "swipeContainer2Page3",
+            "Style": "Style1",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "swipeContainer2Page1",
+                "Width": 721,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1",
+                    "X": 306,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 80,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_1",
+                    "X": 387,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 50,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_2",
+                    "X": 483,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 30,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_3",
+                    "X": 583,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 70,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea3",
+                    "X": 306,
+                    "Y": 200,
+                    "Width": 314,
+                    "Height": 50,
+                    "TextId": "__SingleUse_TI9K",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_1_1_1_1",
+                    "X": 617,
+                    "Y": 80,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 80.0,
+                        "Y": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_2_1_1",
+                    "X": 35,
+                    "Y": 82,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      },
+                      {
+                        "Y": 40.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "ToggleButton",
+                    "Name": "toggleButton1",
+                    "X": 126,
+                    "Y": 125,
+                    "Width": 128,
+                    "Height": 38,
+                    "InitialStatePressed": true,
+                    "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+                    "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+                    "Style": "Style4"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea4",
+                    "X": 133,
+                    "Y": 61,
+                    "Width": 102,
+                    "Height": 49,
+                    "TextId": "__SingleUse_R962",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer2Page2",
+                "Width": 721,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_4",
+                    "X": 306,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 10,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_1_1",
+                    "X": 387,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 30,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_2_1",
+                    "X": 483,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 50,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_3_1",
+                    "X": 583,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 50,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea3_1",
+                    "X": 306,
+                    "Y": 200,
+                    "Width": 314,
+                    "Height": 50,
+                    "TextId": "__SingleUse_IR3H",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_1_1_1_1_1",
+                    "X": 617,
+                    "Y": 80,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 80.0,
+                        "Y": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_2_1_1_1",
+                    "X": 35,
+                    "Y": 82,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      },
+                      {
+                        "Y": 40.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "ToggleButton",
+                    "Name": "toggleButton1_1",
+                    "X": 126,
+                    "Y": 125,
+                    "Width": 128,
+                    "Height": 38,
+                    "InitialStatePressed": true,
+                    "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+                    "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+                    "Style": "Style4"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea4_1",
+                    "X": 133,
+                    "Y": 61,
+                    "Width": 102,
+                    "Height": 49,
+                    "TextId": "__SingleUse_GLZI",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer2Page3",
+                "Width": 721,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_4_1",
+                    "X": 306,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_1_1_1",
+                    "X": 387,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_2_1_1",
+                    "X": 483,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_3_1_1",
+                    "X": 583,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea3_1_1",
+                    "X": 306,
+                    "Y": 200,
+                    "Width": 314,
+                    "Height": 50,
+                    "TextId": "__SingleUse_7F82",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_1_1_1_1_1_1",
+                    "X": 617,
+                    "Y": 80,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 80.0,
+                        "Y": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_2_1_1_1_1",
+                    "X": 35,
+                    "Y": 82,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      },
+                      {
+                        "Y": 40.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "ToggleButton",
+                    "Name": "toggleButton1_1_1",
+                    "X": 126,
+                    "Y": 125,
+                    "Width": 128,
+                    "Height": 38,
+                    "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+                    "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+                    "Style": "Style4"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea4_1_1",
+                    "X": 133,
+                    "Y": 61,
+                    "Width": 102,
+                    "Height": 49,
+                    "TextId": "__SingleUse_025Q",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "swipeContainer2Page4",
+                "Width": 721,
+                "Height": 250,
+                "Components": [
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_4_1_1",
+                    "X": 306,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 100,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_1_1_1_1",
+                    "X": 387,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 70,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_2_1_1_1",
+                    "X": 483,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 50,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "Slider",
+                    "Name": "slider1_3_1_1_1",
+                    "X": 583,
+                    "Y": 7,
+                    "Width": 34,
+                    "Height": 179,
+                    "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+                    "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+                    "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+                    "BackgroundX": 7,
+                    "BackgroundY": 3,
+                    "IndicatorMax": 125,
+                    "ValueMax": 100,
+                    "InitValue": 10,
+                    "Style": "Style1"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea3_1_1_1",
+                    "X": 306,
+                    "Y": 200,
+                    "Width": 314,
+                    "Height": 50,
+                    "TextId": "__SingleUse_3R16",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_1_1_1_1_1_1_1",
+                    "X": 617,
+                    "Y": 80,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 80.0,
+                        "Y": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "Shape",
+                    "Name": "shape1_2_1_1_1_1_1",
+                    "X": 35,
+                    "Y": 82,
+                    "Width": 80,
+                    "Height": 80,
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "Points": [
+                      {
+                        "X": 40.0
+                      },
+                      {
+                        "X": 40.0,
+                        "Y": 80.0
+                      },
+                      {
+                        "Y": 40.0
+                      }
+                    ],
+                    "XScale": 1.0,
+                    "YScale": 1.0
+                  },
+                  {
+                    "Type": "ToggleButton",
+                    "Name": "toggleButton1_1_1_1",
+                    "X": 126,
+                    "Y": 125,
+                    "Width": 128,
+                    "Height": 38,
+                    "Pressed": "__designer\\Blue_Togglebars_Toggle_round_large_button_ON.png",
+                    "Released": "__designer\\Blue_Togglebars_Toggle_round_large_button_OFF.png",
+                    "Style": "Style4"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textArea4_1_1_1",
+                    "X": 133,
+                    "Y": 61,
+                    "Width": 102,
+                    "Height": 49,
+                    "TextId": "__SingleUse_DWK9",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 280,
+      "Height": 1424
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "screen",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 280,
+        "Height": 1424
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F769BGT6.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7"
+  },
+  "Version": "4.18.1"
+}
